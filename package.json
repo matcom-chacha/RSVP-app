@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "node scripts/run.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
     "hardhat": "^2.10.1"
   }
 }
